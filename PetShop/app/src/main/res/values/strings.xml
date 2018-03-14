@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">PetShop</string>
+    <string name="titulo">Escola qual cachorro deseja:</string>
+    <string name="rdbBorder">Border Collie R$ 800,00</string>
+    <string name="rdbPitBull">Pit Bull R$ 750.00</string>
+    <string name="rdbPastorAlemao">Pastor Alemão R$700,00</string>
+    <string name="rdbPastorCanadense">Pastor canadense R$ 800,00</string>
+    <string name="ckbFemea">Fêmea</string>
+    <string name="ckbAdestrado">Adestrado</string>
+    <string name="ckbVacina">Com todas as vacinas em dia</string>
+    <string name="btnCalc">CALCULAR</string>
+    <string name="txtValor">R$ 00,00</string>
+</resources>
