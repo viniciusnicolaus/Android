@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">ProjetoPizza</string>
+    <string name="rdbMussarela">Mussarela</string>
+    <string name="rdbCalabresa">Calabresa</string>
+    <string name="rdbPortuguesa">Portuguesa</string>
+    <string name="ckbBordaRecheada">Borda Recheada</string>
+    <string name="btnCalcular">CALCULAR</string>
+    <string name="txtValor">R$ 00,00</string>
+</resources>

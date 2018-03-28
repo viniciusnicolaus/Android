@@ -39,6 +39,4 @@
         android:text="@string/salvar"
         android:onClick="Salvar"/>
 
-
-
 </LinearLayout>

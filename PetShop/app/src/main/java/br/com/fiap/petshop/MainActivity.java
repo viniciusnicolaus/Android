@@ -9,34 +9,26 @@ import android.widget.RadioGroup;
 import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
-
-
     TextView txtValor;
     RadioGroup rdgCachorro ;
 
     CheckBox ckbFemea;
     CheckBox ckbAdestrado;
     CheckBox ckbVacina;
-
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
         rdgCachorro = findViewById(R.id.rdgCachorro);
-
         ckbFemea = findViewById(R.id.ckbFemea);
         ckbAdestrado = findViewById(R.id.ckbAdestrado);
         ckbVacina = findViewById(R.id.ckbVacina);
-
         txtValor = findViewById(R.id.valor);
 
     }
-
     public void calcular(View view) {
         double valorTotal = 0;
-
         int cachorro = rdgCachorro.getCheckedRadioButtonId();
 
         switch (cachorro) {
