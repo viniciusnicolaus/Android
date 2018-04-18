@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/margin_padding_padrao"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ImageView
+        android:layout_width="@dimen/medida_da_imagem_principal"
+        android:layout_height="@dimen/medida_da_imagem_principal"
+        android:src="@drawable/p1"
+        android:id="@+id/imgPessoa"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/nome"
+        android:layout_toRightOf="@id/imgPessoa"
+        android:textSize="24sp"
+        android:layout_marginLeft="@dimen/margin_padding_padrao"
+        android:layout_marginTop="@dimen/margin_padding_padrao"
+        android:id="@+id/txtNome"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/email"
+        android:layout_alignLeft="@id/txtNome"
+        android:layout_alignBottom="@id/imgPessoa"
+        android:textSize="16sp"
+        android:layout_marginBottom="@dimen/margin_padding_padrao"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/sair"
+        android:onClick="sair"
+        android:layout_alignParentBottom="true"/>
+
+</RelativeLayout>
