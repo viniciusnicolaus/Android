@@ -23,8 +23,6 @@ public class MainActivity extends AppCompatActivity {
             "Dinamarca",
             "Espanha",
             "França"
-
-
     };
 
     String[] estadosBrasil = {
