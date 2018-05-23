@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/outraactivity"
+        android:onClick="abrirOutraActivity"
+        android:id="@+id/btnOutraActivity"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/alterar_1"
+        android:onClick="alterar1"
+        android:id="@+id/btnAlterar1"
+        android:layout_below="@id/btnOutraActivity"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/alterar2"
+        android:onClick="alterar2"
+        android:id="@+id/btnAlterar2"
+        android:layout_below="@id/btnAlterar1"/>
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/container"
+        android:layout_alignParentBottom="true"/>
+</RelativeLayout>

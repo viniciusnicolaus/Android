@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Fragments</string>
+    <string name="outraactivity">OutraActivity</string>
+    <string name="alterar_1">Alterar 1</string>
+    <string name="alterar2">alterar2</string>
+    <string name="exemplo_de_outra_fragment">Exemplo de outra Fragment</string>
+</resources>
