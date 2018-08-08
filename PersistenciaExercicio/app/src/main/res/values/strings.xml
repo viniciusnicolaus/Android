@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">PersistenciaExercicio</string>
+    <string name="configuracao">Configuração</string>
+    <string name="exibir_splash">Exibir splash?</string>
+    <string name="tempo_de_exibicao">Tempo de exibição</string>
+    <string name="salvar">Salvar</string>
+    <string name="xesque">XESQUE</string>
+    <string name="configuracao_salva">Configuação salva com sucesso</string>
+</resources>
