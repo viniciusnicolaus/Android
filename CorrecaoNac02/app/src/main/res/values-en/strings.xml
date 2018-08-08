@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Correção NAC02</string>
+    <string name="hambuger_padr_o">Default hambuger</string>
+    <string name="quinzao">R$ 15,00</string>
+    <string name="detalhes">Details</string>
+    <string name="hambuger_double">Hambuger double</string>
+    <string name="comprar">Buy</string>
+</resources>
