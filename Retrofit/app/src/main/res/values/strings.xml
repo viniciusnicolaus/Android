@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Retrofit</string>
+    <string name="ocorreu_um_erro">Ocoreu um erro ao buscar contatos</string>
+    <string name="request_finalizada">Resquest finalizada</string>
+</resources>
