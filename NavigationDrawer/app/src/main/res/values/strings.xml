@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">NavigationDrawer</string>
+    <string name="home">home</string>
+    <string name="sobre">sobre</string>
+    <string name="abrir">Abrir</string>
+    <string name="fechar">Fechar</string>
+    <string name="clicado_sobre">Clicado em Sobre</string>
+    <string name="clicado_home">Clicado em Home</string>
+</resources>

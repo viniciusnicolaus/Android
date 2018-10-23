@@ -13,8 +13,7 @@ import android.widget.Toast;
 
 import java.util.List;
 
-public class ContatoAdapter
-        extends RecyclerView.Adapter<ContatoAdapter.ContatoViewHolder> {
+public class ContatoAdapter extends RecyclerView.Adapter<ContatoAdapter.ContatoViewHolder> {
 
     private Context context;
     private List<Contato> contatos;
@@ -24,11 +23,18 @@ public class ContatoAdapter
         this.contatos = contatos;
     }
 
+
     @NonNull
     @Override
     public ContatoAdapter.ContatoViewHolder onCreateViewHolder(@NonNull ViewGroup viewGroup, int i) {
-        View v = LayoutInflater.from(this.context)
-                .inflate(R.layout.recyclerview_contatos, viewGroup, false);
+
+        View v = LayoutInflater
+                .from(this.context)
+                .inflate(
+                        R.layout.recyclerview_contatos,
+                        viewGroup,
+                        false
+                );
 
         return new ContatoViewHolder(v);
     }
@@ -42,7 +48,7 @@ public class ContatoAdapter
         contatoViewHolder.txtTelefone.setText( contato.getTelefone() );
         contatoViewHolder.cardView.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(View v) {
+            public void onClick(View view) {
                 Toast.makeText(context, contato.getStatus(), Toast.LENGTH_SHORT).show();
             }
         });
@@ -52,7 +58,6 @@ public class ContatoAdapter
     public int getItemCount() {
         return this.contatos.size();
     }
-
 
     public class ContatoViewHolder extends RecyclerView.ViewHolder {
 

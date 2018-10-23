@@ -19,11 +19,11 @@ public class MainActivity extends AppCompatActivity {
 
         contatos = GeraContatos.getContatos();
 
-        ContatoAdapter adapter
-                = new ContatoAdapter(this, contatos);
+        ContatoAdapter adapter = new ContatoAdapter(this, contatos);
 
-        RecyclerView.LayoutManager layoutManager
-                = new LinearLayoutManager(this);
+
+        RecyclerView.LayoutManager layoutManager = new LinearLayoutManager(this);
+
 
         rvContatos = findViewById(R.id.rvContatos);
         rvContatos.setLayoutManager(layoutManager);

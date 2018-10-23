@@ -4,25 +4,22 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class GeraContatos {
-    public static List<Contato> getContatos() {
+    public static List<Contato> getContatos(){
         List<Contato> contatos = new ArrayList<>();
-
-        Contato contato1  = new Contato(
+        Contato contato1 = new Contato(
                 "João da Silva",
-                "(11) 1111-1111",
+                "(11) 48554",
                 "Ocupado",
                 R.drawable.p1
         );
-
         contatos.add(contato1);
 
         Contato contato2 = new Contato(
-                "Maria de Lurdes",
-                "(11) 2222-2222",
-                "Disponível",
+                "Marida de Lurdes",
+                "(11) 485545",
+                "Invisível",
                 R.drawable.p2
         );
-
         contatos.add(contato2);
 
         return contatos;

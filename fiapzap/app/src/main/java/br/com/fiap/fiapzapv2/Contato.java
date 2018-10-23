@@ -8,14 +8,14 @@ public class Contato implements Serializable {
     private String status;
     private int imagem;
 
-    public Contato() {
-    }
-
     public Contato(String nome, String telefone, String status, int imagem) {
         this.nome = nome;
         this.telefone = telefone;
         this.status = status;
         this.imagem = imagem;
+    }
+
+    public Contato() {
     }
 
     public String getNome() {
